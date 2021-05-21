@@ -4,9 +4,226 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>playstation store</title>
 </head>
 <body>
-    
+     <!-- inizio header -->
+     <header class="position-fixed top-0 start-0 end-0">
+        <div class="header-top bg-dark text-end">
+            <div class="container-fluid">
+                <img src="img/sony_logo.svg" alt="">
+            </div>
+        </div>
+        <div class="header-bottom">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/play_logo.svg" alt="">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- inizio parte sinistra navbar -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <!-- inizio item giochi -->
+                            <li class="nav-item dropdown position-static has-megamenu mx-1">
+                                <a class="arrow-dad nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Giochi
+                                    <img src="img/chevron-down-solid.svg" alt="chevron down" class="arrow ms-w-10" aria-expanded="false">
+                                </a>
+                                <ul class="dropdown-menu megamenu my-megamenu-setting" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item giochi -->
+
+                            <!-- inizio item Hardware -->
+                            <li class="nav-item dropdown position-static has-megamenu mx-1">
+                                <a class="arrow-dad nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Hardware
+                                    <img src="img/chevron-down-solid.svg" alt="chevron down" class="arrow ms-w-10" aria-expanded="false">
+                                </a>
+                                <ul class="dropdown-menu megamenu my-megamenu-setting" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item Hardware -->
+
+                            <!-- inizio item Servizi -->
+                            <li class="nav-item dropdown position-static has-megamenu mx-1">
+                                <a class="arrow-dad nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Servizi
+                                    <img src="img/chevron-down-solid.svg" alt="chevron down" class="arrow ms-w-10" aria-expanded="false">
+                                </a>
+                                <ul class="dropdown-menu megamenu my-megamenu-setting" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item Servizi -->
+
+                            <!-- inizio item Novità -->
+                            <li class="nav-item dropdown position-static has-megamenu mx-1">
+                                <a class="arrow-dad nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Novità
+                                    <img src="img/chevron-down-solid.svg" alt="chevron down" class="arrow ms-w-10" aria-expanded="false">
+                                </a>
+                                <ul class="dropdown-menu megamenu my-megamenu-setting" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item Novità -->
+
+                            <!-- inizio item Fai acquisti -->
+                            <li class="nav-item dropdown position-static has-megamenu mx-1">
+                                <a class="arrow-dad nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Fai acquisti
+                                    <img src="img/chevron-down-solid.svg" alt="chevron down" class="arrow ms-w-10" aria-expanded="false">
+                                </a>
+                                <ul class="dropdown-menu megamenu my-megamenu-setting" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item Fai acquisti -->
+
+                            <!-- inizio item Supporto -->
+                            <li class="nav-item dropdown position-static has-megamenu mx-1">
+                                <a class="arrow-dad nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Supporto
+                                    <img src="img/chevron-down-solid.svg" alt="chevron down" class="arrow ms-w-10" aria-expanded="false">
+                                </a>
+                                <ul class="dropdown-menu megamenu my-megamenu-setting" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item Supporto -->
+                        </ul>
+                        <!-- fine parte sinistra navbar -->
+
+                        <!-- inizio parte destra navbar -->
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <!-- inizio item My playstation -->
+                            <li class="nav-item dropdown position-static has-megamenu mx-1">
+                                <a class="arrow-dad nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    My PlayStation
+                                    <img src="img/chevron-down-solid.svg" alt="chevron down" class="arrow ms-w-10" aria-expanded="false">
+                                </a>
+                                <ul class="dropdown-menu megamenu my-megamenu-setting" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item My playstation -->
+
+                            <!-- inizio item pulsante accedi -->
+                            <li class="nav-item mx-1">
+                                <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
+                            </li>
+                            <!-- fine item pulsante accedi -->
+
+                            <!-- inizio item lente -->
+                            <li class="nav-item mx-1">
+                                <img src="img/lens.svg" alt="" class="ms-w-20 align-middle">
+                            </li>
+                            <!-- fine item lente -->
+                        </ul>
+                        <!-- fine parte destra navbar -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- fine header -->
+
+    <!-- inizio jumbotron -->
+    <div class="jumbotron">
+        <div class="container-xl h-100">
+            <div class="row align-items-end h-100 pb-3">
+                <div class="col-12 col-lg-4 mb-5 mt-300">
+                    <img src="img/returnal-hero-banner-logo.png" alt="" class="w-50">
+                    <h2 class="text-white my-4">Rompi il cerchio</h2>
+                    <p class="text-white">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in aesclusiva su PS5.</p>
+                    <button type="button" class="btn ms-bg-btn text-white rounded-pill mt-4">Acquista ora</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron-bottom mt-4">
+        <div class="container-xl">
+            <div class="row g-3">
+                <!-- inizio prima immagine -->
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="immagine active position-relative border border-3 border-primary ms-rounded-25 overflow-hidden p-1">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="" class="w-100 ms-rounded-20">
+                    </div>
+                </div>
+                <!-- fine prima immagine -->
+
+                <!-- inizio seconda immagine -->
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="immagine ms-rounded-20 overflow-hidden">
+                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+                <!-- fine seconda immagine -->
+                
+                <!-- inizio terza immagine -->
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="immagine ms-rounded-20 overflow-hidden">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+                <!-- fine terza immagine -->
+
+                <!-- inizio quarta immagine -->
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="immagine ms-rounded-20 overflow-hidden">
+                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+                <!-- fine quarta immagine -->
+
+                <!-- inizio quinta immagine -->
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="immagine ms-rounded-20 overflow-hidden">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+                <!-- fine quinta immagine -->
+
+                <!-- inizio sesta immagine -->
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="immagine ms-rounded-20 overflow-hidden">
+                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+                <!-- fine sesta immagine -->
+            </div>
+        </div>
+    </div>
+    <!-- fine jumbotron -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>

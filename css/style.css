@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.mt-300{
+    margin-top: 300px;
+}
+
+
+/* HEADER */
+.ms-bg-btn{
+    background-color: #cd3d0f;
+}
+
+.jumbotron-bottom .immagine:hover,
+.pointer:hover{
+    cursor: pointer;
+}
+
+.ms-rounded-20{
+    border-radius: 20px;
+}
+
+.ms-rounded-25{
+    border-radius: 25px;
+}
+
+.ms-w-10{
+    width: 10px;
+}
+
+.ms-w-20{
+    width: 20px;
+}
+
+header{
+    z-index: 9999;
+}
+
+header .header-top img{
+    width: 100px;
+}
+
+.header-top{
+    height: 30px;
+}
+
+.header-bottom{
+    height: 80px;
+}
+
+/* dropdown arrow */
+.arrow-dad[aria-expanded="true"] .arrow{
+    transform: rotate(-180deg);
+}
+.arrow {
+    transition: ease 0.1s;
+}
+/* stop animation dropdown arrow */
+
+.my-megamenu-setting{
+    border: none;
+    border-radius: 0;
+    margin-top: 0 !important;
+    width: 100vw;
+}
+
+.jumbotron{
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 110px;
+}
+
+.jumbotron-bottom .immagine{
+    transition: transform ease 0.3s;
+}
+
+.jumbotron-bottom .immagine:hover{
+    transform: translateY(-10px);
+}
+
+
