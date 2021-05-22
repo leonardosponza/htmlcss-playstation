@@ -85,5 +85,26 @@ header .header-top img{
 .jumbotron-bottom .immagine:hover{
     transform: translateY(-10px);
 }
+/* MAIN */
+#it-takes-two{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
+#play-plus{
+    background-color: #bebcbb;
+}
+
+#play-now{
+    background-color: #161c3b;
+}
+
+.immagine.not-active{
+    opacity: 0.7;
+}
+
+.immagine.not-active:hover{
+    opacity: 1;
+}
 
